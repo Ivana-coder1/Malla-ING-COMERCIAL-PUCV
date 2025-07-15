@@ -7,288 +7,287 @@
 </head>
 <body>
     <h1>Malla Interactiva - Ingeniería Comercial</h1>
-    <p>Haz clic en una asignatura para marcarla como aprobada o convalidada. Se desbloquearán automáticamente las asignaturas que dependan de ella.</p>
-    <div class="year"><h2>Año 1</h2><div class="semestres"><div class="semestre"><h3>Semestre 1</h3><div class="curso bloqueado" id="ICA1161" data-codigo="ICA1161" data-prerreqs='[]'>
-                    <strong>ICA1161</strong><br>
-                    INTRO A LA ECONOMÍA<br>
-                    <span class="creditos">4 créditos</span><br>
-                    <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div><div class="curso bloqueado" id="ICA1101" data-codigo="ICA1101" data-prerreqs='[]'>
+    <p class="autor">Autor: @not_ingeniera</p>
+    <div id="progreso" class="progreso">Progreso: 0 créditos completados</div>
+    <div class="barra-container">
+        <div id="barra-progreso" class="barra"></div>
+    </div>
+    <div class="year"><h2>Año 1</h2><div class="semestres"><div class="semestre"><h3>Semestre 1</h3><div class="curso bloqueado" id="ICA1101" data-codigo="ICA1101">
                     <strong>ICA1101</strong><br>
                     ENTORNO LEGAL 1<br>
                     <span class="creditos">3 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div><div class="curso bloqueado" id="ICA1102" data-codigo="ICA1102" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="ICA1102" data-codigo="ICA1102">
                     <strong>ICA1102</strong><br>
                     ADMIN DE EMPRESAS<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div><div class="curso bloqueado" id="MAT1371" data-codigo="MAT1371" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="MAT1371" data-codigo="MAT1371">
                     <strong>MAT1371</strong><br>
                     MATEMÁTICAS DIREC. 1<br>
                     <span class="creditos">7 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div><div class="curso bloqueado" id="ICA1181" data-codigo="ICA1181" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="ICA1181" data-codigo="ICA1181">
                     <strong>ICA1181</strong><br>
                     TALLER EXPRESIÓN 1<br>
                     <span class="creditos">1 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div><div class="curso bloqueado" id="ICA1182" data-codigo="ICA1182" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="ICA1182" data-codigo="ICA1182">
                     <strong>ICA1182</strong><br>
                     TALLER TÉCNICAS DE ESTUDIO<br>
                     <span class="creditos">1 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div></div><div class="semestre"><h3>Semestre 2</h3><div class="curso bloqueado" id="ICA1262" data-codigo="ICA1262" data-prerreqs='["ICA1161", "MAT1371"]'>
+                </div></div><div class="semestre"><h3>Semestre 2</h3><div class="curso bloqueado" id="ICA1262" data-codigo="ICA1262">
                     <strong>ICA1262</strong><br>
                     MICROECONOMÍA 1<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1161, MAT1371</span>
-                </div><div class="curso bloqueado" id="ICA1203" data-codigo="ICA1203" data-prerreqs='["ICA1102"]'>
+                </div><div class="curso bloqueado" id="ICA1203" data-codigo="ICA1203">
                     <strong>ICA1203</strong><br>
-                    DIRECCIÓN DE EMPRESAS <br>
+                    DIRECCIÓN DE EMPRESAS<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1102</span>
-                </div><div class="curso bloqueado" id="MAT1272" data-codigo="MAT1272" data-prerreqs='["MAT1371"]'>
+                </div><div class="curso bloqueado" id="MAT1272" data-codigo="MAT1272">
                     <strong>MAT1272</strong><br>
                     MATEMÁTICAS DIREC. 2<br>
                     <span class="creditos">7 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): MAT1371</span>
-                </div><div class="curso bloqueado" id="ICA1273" data-codigo="ICA1273" data-prerreqs='["MAT1371"]'>
+                </div><div class="curso bloqueado" id="ICA1273" data-codigo="ICA1273">
                     <strong>ICA1273</strong><br>
                     ANÁLISIS CUANTITATIVO 1<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): MAT1371</span>
-                </div><div class="curso bloqueado" id="ICA1283" data-codigo="ICA1283" data-prerreqs='["ICA1181", "ICA1182"]'>
+                </div><div class="curso bloqueado" id="ICA1283" data-codigo="ICA1283">
                     <strong>ICA1283</strong><br>
-                    TALLER HABILIDADES SOCIALES <br>
+                    TALLER HABILIDADES SOCIALES<br>
                     <span class="creditos">1 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1181, ICA1182</span>
-                </div></div></div></div><div class="year"><h2>Año 2</h2><div class="semestres"><div class="semestre"><h3>Semestre 3</h3><div class="curso bloqueado" id="ICA2163" data-codigo="ICA2163" data-prerreqs='["ICA1262"]'>
+                </div></div></div></div><div class="year"><h2>Año 2</h2><div class="semestres"><div class="semestre"><h3>Semestre 3</h3><div class="curso bloqueado" id="ICA2163" data-codigo="ICA2163">
                     <strong>ICA2163</strong><br>
                     MACROECONOMÍA 1<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1262</span>
-                </div><div class="curso bloqueado" id="ICA2111" data-codigo="ICA2111" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="ICA2111" data-codigo="ICA2111">
                     <strong>ICA2111</strong><br>
                     MATEMÁTICAS FINANCIERAS<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div><div class="curso bloqueado" id="ICA2141" data-codigo="ICA2141" data-prerreqs='["ICA1102"]'>
+                </div><div class="curso bloqueado" id="ICA2141" data-codigo="ICA2141">
                     <strong>ICA2141</strong><br>
                     TECNOLOGÍAS 1<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1102</span>
-                </div><div class="curso bloqueado" id="ICA2174" data-codigo="ICA2174" data-prerreqs='["MAT1272", "ICA1273"]'>
+                </div><div class="curso bloqueado" id="ICA2174" data-codigo="ICA2174">
                     <strong>ICA2174</strong><br>
                     ANÁLISIS CUANTITATIVO 2<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): MAT1272, ICA1273</span>
-                </div><div class="curso bloqueado" id="ING9901" data-codigo="ING9901" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="ING9901" data-codigo="ING9901">
                     <strong>ING9901</strong><br>
                     INGLÉS 1<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div><div class="curso bloqueado" id="ICR010" data-codigo="ICR010" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="ICR010" data-codigo="ICR010">
                     <strong>ICR010</strong><br>
                     ANTROPOLOGÍA CRISTIANA<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div><div class="curso bloqueado" id="PFF0001" data-codigo="PFF0001" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="PFF0001" data-codigo="PFF0001">
                     <strong>PFF0001</strong><br>
                     PFF 1<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div></div><div class="semestre"><h3>Semestre 4</h3><div class="curso bloqueado" id="ICA2264" data-codigo="ICA2264" data-prerreqs='["ICA2163", "ICA2174"]'>
+                </div></div><div class="semestre"><h3>Semestre 4</h3><div class="curso bloqueado" id="ICA2264" data-codigo="ICA2264">
                     <strong>ICA2264</strong><br>
                     ECONOMETRÍA<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2163, ICA2174</span>
-                </div><div class="curso bloqueado" id="ICA2212" data-codigo="ICA2212" data-prerreqs='["ICA1101", "ICA1102", "ICA2111"]'>
+                </div><div class="curso bloqueado" id="ICA2212" data-codigo="ICA2212">
                     <strong>ICA2212</strong><br>
                     CONTABILIDAD FINANCIERA<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1101, ICA1102, ICA2111</span>
-                </div><div class="curso bloqueado" id="ICA2204" data-codigo="ICA2204" data-prerreqs='["ICA1203"]'>
+                </div><div class="curso bloqueado" id="ICA2204" data-codigo="ICA2204">
                     <strong>ICA2204</strong><br>
                     ADMIN DE NEGOCIOS<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1203</span>
-                </div><div class="curso bloqueado" id="ICA2242" data-codigo="ICA2242" data-prerreqs='["ICA2141"]'>
+                </div><div class="curso bloqueado" id="ICA2242" data-codigo="ICA2242">
                     <strong>ICA2242</strong><br>
                     TECNOLOGÍAS 2<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2141</span>
-                </div><div class="curso bloqueado" id="ING9002" data-codigo="ING9002" data-prerreqs='["ING9001"]'>
+                </div><div class="curso bloqueado" id="ING9002" data-codigo="ING9002">
                     <strong>ING9002</strong><br>
                     INGLÉS 2<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ING9001</span>
-                </div><div class="curso bloqueado" id="ICA2284" data-codigo="ICA2284" data-prerreqs='["ICA1181"]'>
+                </div><div class="curso bloqueado" id="ICA2284" data-codigo="ICA2284">
                     <strong>ICA2284</strong><br>
                     TALLER EXPRESIÓN 2<br>
                     <span class="creditos">1 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1181</span>
-                </div><div class="curso bloqueado" id="ICA2285" data-codigo="ICA2285" data-prerreqs='["ICA1283"]'>
+                </div><div class="curso bloqueado" id="ICA2285" data-codigo="ICA2285">
                     <strong>ICA2285</strong><br>
                     TALLER PENSAMIENTO CRÍTICO<br>
                     <span class="creditos">1 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1283</span>
-                </div></div></div></div><div class="year"><h2>Año 3</h2><div class="semestres"><div class="semestre"><h3>Semestre 5</h3><div class="curso bloqueado" id="ICA3165" data-codigo="ICA3165" data-prerreqs='["ICA1262"]'>
+                </div></div></div></div><div class="year"><h2>Año 3</h2><div class="semestres"><div class="semestre"><h3>Semestre 5</h3><div class="curso bloqueado" id="ICA3165" data-codigo="ICA3165">
                     <strong>ICA3165</strong><br>
                     MICROECONOMÍA 2<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1262</span>
-                </div><div class="curso bloqueado" id="ICA3113" data-codigo="ICA3113" data-prerreqs='["ICA2212"]'>
+                </div><div class="curso bloqueado" id="ICA3113" data-codigo="ICA3113">
                     <strong>ICA3113</strong><br>
                     CONTABILIDAD ADMINISTRATIVA<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2212</span>
-                </div><div class="curso bloqueado" id="ICA3131" data-codigo="ICA3131" data-prerreqs='["ICA2174"]'>
+                </div><div class="curso bloqueado" id="ICA3131" data-codigo="ICA3131">
                     <strong>ICA3131</strong><br>
                     INTRO INVESTIGACION DE MERCADOS<br>
                     <span class="creditos">3 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2174</span>
-                </div><div class="curso bloqueado" id="ICA3151" data-codigo="ICA3151" data-prerreqs='["ICA1203"]'>
+                </div><div class="curso bloqueado" id="ICA3151" data-codigo="ICA3151">
                     <strong>ICA3151</strong><br>
                     GESTIÓN DE CREATIVIDAD E INNOVACIÓN<br>
                     <span class="creditos">3 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1203</span>
-                </div><div class="curso bloqueado" id="ICA3105" data-codigo="ICA3105" data-prerreqs='["ICA1203"]'>
+                </div><div class="curso bloqueado" id="ICA3105" data-codigo="ICA3105">
                     <strong>ICA3105</strong><br>
                     METODOLOGÍA DE INVESTIGACIÓN<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA1203</span>
-                </div><div class="curso bloqueado" id="ICA3143" data-codigo="ICA3143" data-prerreqs='["ICA2174"]'>
+                </div><div class="curso bloqueado" id="ICA3143" data-codigo="ICA3143">
                     <strong>ICA3143</strong><br>
                     INTRO INVESTIGACIÓN DE OPERACIONES<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2174</span>
-                </div></div><div class="semestre"><h3>Semestre 6</h3><div class="curso bloqueado" id="ICA3266" data-codigo="ICA3266" data-prerreqs='["ICA2163"]'>
+                </div></div><div class="semestre"><h3>Semestre 6</h3><div class="curso bloqueado" id="ICA3266" data-codigo="ICA3266">
                     <strong>ICA3266</strong><br>
                     MACROECONOMÍA 2<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2163</span>
-                </div><div class="curso bloqueado" id="ICA3214" data-codigo="ICA3214" data-prerreqs='["ICA2204", "ICA3113"]'>
+                </div><div class="curso bloqueado" id="ICA3214" data-codigo="ICA3214">
                     <strong>ICA3214</strong><br>
                     FINANZAS 1<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2204, ICA3113</span>
-                </div><div class="curso bloqueado" id="ICA3232" data-codigo="ICA3232" data-prerreqs='["ICA2204", "ICA3131"]'>
+                </div><div class="curso bloqueado" id="ICA3232" data-codigo="ICA3232">
                     <strong>ICA3232</strong><br>
                     MARKETING 1<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2204, ICA3131</span>
-                </div><div class="curso bloqueado" id="ICA3221" data-codigo="ICA3221" data-prerreqs='["ICA2204"]'>
+                </div><div class="curso bloqueado" id="ICA3221" data-codigo="ICA3221">
                     <strong>ICA3221</strong><br>
                     DIRECCIÓN DE PERSONAS 1<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2204</span>
-                </div><div class="curso bloqueado" id="ICA3244" data-codigo="ICA3244" data-prerreqs='["ICA2204", "ICA3143"]'>
+                </div><div class="curso bloqueado" id="ICA3244" data-codigo="ICA3244">
                     <strong>ICA3244</strong><br>
                     PRODUCCIÓN Y OPERACIONES<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2204, ICA3143</span>
-                </div></div></div></div><div class="year"><h2>Año 4</h2><div class="semestres"><div class="semestre"><h3>Semestre 7</h3><div class="curso bloqueado" id="ICA4167" data-codigo="ICA4167" data-prerreqs='["ICA3165", "ICA3266"]'>
+                </div></div></div></div><div class="year"><h2>Año 4</h2><div class="semestres"><div class="semestre"><h3>Semestre 7</h3><div class="curso bloqueado" id="ICA4167" data-codigo="ICA4167">
                     <strong>ICA4167</strong><br>
                     ECONOMÍA INTERNACIONAL<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA3165, ICA3266</span>
-                </div><div class="curso bloqueado" id="ICA4115" data-codigo="ICA4115" data-prerreqs='["ICA2264", "ICA3214"]'>
+                </div><div class="curso bloqueado" id="ICA4115" data-codigo="ICA4115">
                     <strong>ICA4115</strong><br>
                     FINANZAS 2<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2264, ICA3214</span>
-                </div><div class="curso bloqueado" id="ICA4133" data-codigo="ICA4133" data-prerreqs='["ICA3232"]'>
+                </div><div class="curso bloqueado" id="ICA4133" data-codigo="ICA4133">
                     <strong>ICA4133</strong><br>
                     MARKETING 2<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA3232</span>
-                </div><div class="curso bloqueado" id="ICA4122" data-codigo="ICA4122" data-prerreqs='["ICA3221"]'>
+                </div><div class="curso bloqueado" id="ICA4122" data-codigo="ICA4122">
                     <strong>ICA4122</strong><br>
                     DIRECCIÓN DE PERSONAS 2<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA3221</span>
-                </div><div class="curso bloqueado" id="ICA4145" data-codigo="ICA4145" data-prerreqs='["ICA3244"]'>
+                </div><div class="curso bloqueado" id="ICA4145" data-codigo="ICA4145">
                     <strong>ICA4145</strong><br>
                     PRODUCCIÓN Y OPERACIONES 2<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA3244</span>
-                </div></div><div class="semestre"><h3>Semestre 8</h3><div class="curso bloqueado" id="ICA4208" data-codigo="ICA4208" data-prerreqs='["ICA3214"]'>
+                </div></div><div class="semestre"><h3>Semestre 8</h3><div class="curso bloqueado" id="ICA4208" data-codigo="ICA4208">
                     <strong>ICA4208</strong><br>
                     ENTORNO LEGAL 2<br>
                     <span class="creditos">3 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA3214</span>
-                </div><div class="curso bloqueado" id="ICA4252" data-codigo="ICA4252" data-prerreqs='["ICA4115", "ICA3244", "ICA4133"]'>
+                </div><div class="curso bloqueado" id="ICA4252" data-codigo="ICA4252">
                     <strong>ICA4252</strong><br>
                     PLANEACIÓN Y CREACIÓN DE NEGOCIOS<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA4115, ICA3244, ICA4133</span>
-                </div><div class="curso bloqueado" id="ICA4207" data-codigo="ICA4207" data-prerreqs='["ICA2242", "ICA3244", "ICA4115", "ICA4145"]'>
+                </div><div class="curso bloqueado" id="ICA4207" data-codigo="ICA4207">
                     <strong>ICA4207</strong><br>
                     CONTROL DE GESTIÓN<br>
                     <span class="creditos">3 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2242, ICA3244, ICA4115, ICA4145</span>
-                </div><div class="curso bloqueado" id="ICA4253" data-codigo="ICA4253" data-prerreqs='["ICA4133"]'>
+                </div><div class="curso bloqueado" id="ICA4253" data-codigo="ICA4253">
                     <strong>ICA4253</strong><br>
                     INICIATIVA EMPRESARIAL<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA4133</span>
-                </div><div class="curso bloqueado" id="ICA4254" data-codigo="ICA4254" data-prerreqs='["ICA4122"]'>
+                </div><div class="curso bloqueado" id="ICA4254" data-codigo="ICA4254">
                     <strong>ICA4254</strong><br>
-                    INTRAPRENEURSHIP <br>
+                    INTRAPRENEURSHIP<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA4122</span>
-                </div><div class="curso bloqueado" id="ING9003" data-codigo="ING9003" data-prerreqs='["ING9002"]'>
+                </div><div class="curso bloqueado" id="ING9003" data-codigo="ING9003">
                     <strong>ING9003</strong><br>
                     INGLÉS 3<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ING9002</span>
-                </div><div class="curso bloqueado" id="ICR020" data-codigo="ICR020" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="ICR020" data-codigo="ICR020">
                     <strong>ICR020</strong><br>
                     ÉTICA CRISTIANA<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div></div></div></div><div class="year"><h2>Año 5</h2><div class="semestres"><div class="semestre"><h3>Semestre 9</h3><div class="curso bloqueado" id="AO0001" data-codigo="AO0001" data-prerreqs='[]'>
+                </div></div></div></div><div class="year"><h2>Año 5</h2><div class="semestres"><div class="semestre"><h3>Semestre 9</h3><div class="curso bloqueado" id="AO0001" data-codigo="AO0001">
                     <strong>AO0001</strong><br>
-                    ASIGNATURAS OPTATIVAS <br>
+                    ASIGNATURAS OPTATIVAS<br>
                     <span class="creditos">12 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div><div class="curso bloqueado" id="ING9004" data-codigo="ING9004" data-prerreqs='["ING9003"]'>
+                </div><div class="curso bloqueado" id="ING9004" data-codigo="ING9004">
                     <strong>ING9004</strong><br>
                     INGLÉS 4<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ING9003</span>
-                </div><div class="curso bloqueado" id="ICA5187" data-codigo="ICA5187" data-prerreqs='["ICA2284"]'>
+                </div><div class="curso bloqueado" id="ICA5187" data-codigo="ICA5187">
                     <strong>ICA5187</strong><br>
                     TALLER EXPRESIÓN 3<br>
                     <span class="creditos">1 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2284</span>
-                </div><div class="curso bloqueado" id="ICA5186" data-codigo="ICA5186" data-prerreqs='["ICA2285", "ICA4253"]'>
+                </div><div class="curso bloqueado" id="ICA5186" data-codigo="ICA5186">
                     <strong>ICA5186</strong><br>
                     TALLER DE NEGOCIACIÓN PARA DIR.<br>
                     <span class="creditos">1 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA2285, ICA4253</span>
-                </div><div class="curso bloqueado" id="PFF0002" data-codigo="PFF0002" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="PFF0002" data-codigo="PFF0002">
                     <strong>PFF0002</strong><br>
                     PFF 2<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div><div class="curso bloqueado" id="PFF0003" data-codigo="PFF0003" data-prerreqs='[]'>
+                </div><div class="curso bloqueado" id="PFF0003" data-codigo="PFF0003">
                     <strong>PFF0003</strong><br>
                     PFF 3<br>
                     <span class="creditos">2 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): Ninguno</span>
-                </div></div><div class="semestre"><h3>Semestre 10</h3><div class="curso bloqueado" id="ICA5208" data-codigo="ICA5208" data-prerreqs='["ICA4167", "ICA4253", "ICA4254", "ICA5187"]'>
+                </div></div><div class="semestre"><h3>Semestre 10</h3><div class="curso bloqueado" id="ICA5208" data-codigo="ICA5208">
                     <strong>ICA5208</strong><br>
                     ALTA DIRECCIÓN<br>
                     <span class="creditos">4 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA4167, ICA4253, ICA4254, ICA5187</span>
-                </div><div class="curso bloqueado" id="ICA5209" data-codigo="ICA5209" data-prerreqs='["ICA4167", "ICA4253", "ICA4254", "ICA5187"]'>
+                </div><div class="curso bloqueado" id="ICA5209" data-codigo="ICA5209">
                     <strong>ICA5209</strong><br>
                     TALLER DE TITULACIÓN: SIMULACIÓN<br>
                     <span class="creditos">14 créditos</span><br>
                     <span class="prerreqs">Prerrequisito(s): ICA4167, ICA4253, ICA4254, ICA5187</span>
-                </div><div class="curso bloqueado" id="ICA5288" data-codigo="ICA5288" data-prerreqs='["ICA5186"]'>
+                </div><div class="curso bloqueado" id="ICA5288" data-codigo="ICA5288">
                     <strong>ICA5288</strong><br>
                     TALLER DE EMPLEABILIDAD<br>
                     <span class="creditos">2 créditos</span><br>
